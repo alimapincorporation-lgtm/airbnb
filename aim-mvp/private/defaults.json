@@ -1,0 +1,84 @@
+{
+ "brand": "AIM-AirBnB",
+ "tagline": "Thoughtfully selected stays in Kampala, Uganda.",
+ "phone": "",
+ "email": "",
+ "whatsapp": "",
+ "address": "Kampala, Uganda",
+ "currency": "UGX",
+ "locale": "en-UG",
+ "depositPct": 30,
+ "holdHours": 24,
+ "serviceFeePct": 0,
+ "maxGuests": 20,
+ "momo": {
+  "mtn": "",
+  "airtel": "",
+  "name": ""
+ },
+ "hero": {
+  "eyebrow": "Find your place to call home",
+  "title": "Find a stay that feels like yours.",
+  "text": "Discover thoughtfully selected homes in desirable neighbourhoods, with the information and guidance you need to book with confidence."
+ },
+ "about": "AIM-AirBnB curates short-stay homes in Kampala and around Uganda. Every listing shows the details guests actually need: price, rules, check-in times and a clear booking status.\n\nWe confirm every booking personally, so you always know where you stand.",
+ "faq": [
+  [
+   "How do I book a stay?",
+   "Pick dates on the property page. Some homes are instant book; others are request-to-book and the host replies within a day. After that you pay with Mobile Money and the team confirms your payment."
+  ],
+  [
+   "When is my booking confirmed?",
+   "Only when the status shows Confirmed. A request or an unpaid hold does not guarantee your dates."
+  ],
+  [
+   "How do I pay?",
+   "Pay the amount due by MTN or Airtel Mobile Money, then enter the transaction ID on the payment page. The team verifies it and confirms."
+  ],
+  [
+   "Can I cancel?",
+   "Yes. Refunds follow the property's cancellation policy (Flexible, Moderate or Strict). See the Cancellation page."
+  ],
+  [
+   "What if I don't pay in time?",
+   "Instant-book holds are released after the hold period shown on your payment page and the dates open up again."
+  ]
+ ],
+ "policies": {
+  "privacy": "We collect the details you enter (name, phone, email, trip dates) only to handle your booking and enquiries. We do not sell personal data.\n\nTo request a copy or deletion of your data, contact us using the details on the Contact page.",
+  "terms": "By sending a booking you agree to the house rules shown on the property page and to the cancellation policy of that property.\n\nA booking is confirmed only when its status reads Confirmed. Prices are in the currency shown and may include a cleaning fee.",
+  "cancellation": ""
+ },
+ "destinations": [
+  {
+   "name": "Kololo",
+   "blurb": "Quiet, leafy and close to restaurants and embassies."
+  },
+  {
+   "name": "Bugolobi",
+   "blurb": "A calm residential area with easy access to the city and lakeside."
+  },
+  {
+   "name": "Muyenga",
+   "blurb": "Hilltop homes with long views, popular with families."
+  },
+  {
+   "name": "Ntinda",
+   "blurb": "Everyday convenience with shops, cafés and good transport links."
+  },
+  {
+   "name": "Naguru",
+   "blurb": "Modern developments minutes from the centre."
+  },
+  {
+   "name": "Entebbe",
+   "blurb": "Lake Victoria shoreline and a short ride from the airport."
+  }
+ ],
+ "theme": {
+  "light": "",
+  "dark": ""
+ },
+ "notifyEmail": "",
+ "demo": false
+}

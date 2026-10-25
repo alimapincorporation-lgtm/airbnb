@@ -1,0 +1,27 @@
+/* AIM-AirBnB design tokens (Praxis Homes spec). Change a token and the whole site follows. */
+:root{
+  --p-50:#EFF7F2;--p-100:#DCECE3;--p-200:#B8D9C7;--p-300:#8ABDA5;--p-400:#5A9D81;--p-500:#34785F;--p-600:#245A46;--p-700:#1C4B3B;--p-800:#173D31;--p-900:#123329;--p-950:#092019;
+  --s-100:#FAF9F6;--s-200:#F4F3EF;--s-300:#EAE9E3;--s-400:#DCDAD2;--s-500:#C6C4BA;
+  --bg:#FFFFFF;--bg-alt:#F3F3F1;--card:#FFFFFF;--text:#20221F;--text-2:#62655F;--muted:#878A83;
+  --action:#245A46;--action-h:#173D31;--on-action:#FFFFFF;--border:#E7E7E2;--border-s:#EEEEEB;
+  --input:#FFFFFF;--badge:#EFF7F2;--footer:#1C4B3B;--footer-text:#FFFFFF;--footer-link:#D5E1D9;--divider:#E8E8E4;--link:#245A46;--ph:#EAECE7;--focus:#34785F;
+  --success:#34785F;--success-bg:#E8F3EC;--info:#668B92;--warn:#B68B43;--warn-bg:#F7EFDD;--danger:#B94F48;--danger-bg:#F8E7E5;--rating:#C49B4A;
+  --font-serif:"Playfair Display",Georgia,serif;--font-sans:Inter,Arial,sans-serif;
+  --sp-1:4px;--sp-2:8px;--sp-3:12px;--sp-4:16px;--sp-5:20px;--sp-6:24px;--sp-8:32px;--sp-10:40px;--sp-12:48px;--sp-16:64px;--sp-20:80px;
+  --r-sm:6px;--r-btn:7px;--r-md:10px;--r-card:12px;--r-lg:16px;--r-pill:9999px;
+  --sh-sub:0 2px 8px rgba(28,38,30,.04);--sh-hover:0 8px 24px rgba(28,38,30,.08);--sh-float:0 2px 8px rgba(20,30,22,.10);--sh-drop:0 8px 24px rgba(20,30,22,.12);
+  --t-fast:120ms;--t:200ms;--ease:cubic-bezier(.2,0,0,1);
+  --fs-xs:.75rem;--fs-sm:.8125rem;--fs-md:.9375rem;--fs-lg:1.0625rem;--fs-xl:1.25rem;
+  --pad-x:20px;--sec-y:44px;
+  color-scheme:light;
+}
+@media(min-width:640px){:root{--pad-x:32px;--sec-y:56px}}
+@media(min-width:1024px){:root{--pad-x:48px;--sec-y:80px}}
+[data-theme="dark"]{
+  --bg:#171916;--bg-alt:#20231F;--card:#252923;--text:#F4F3EF;--text-2:#C0C2B9;--muted:#9A9D93;
+  --action:#5A9D81;--action-h:#8ABDA5;--on-action:#10271D;--border:#393D36;--border-s:#30342E;
+  --input:#20231F;--badge:#263D31;--footer:#0F2C21;--footer-text:#F4F3EF;--footer-link:#C9D8CF;--divider:#343831;--link:#8ABDA5;--ph:#2c312a;--focus:#8ABDA5;
+  --success:#6FB394;--success-bg:#203529;--warn:#D1A85C;--warn-bg:#3a3220;--danger:#E0847D;--danger-bg:#3d2523;
+  --sh-sub:0 2px 8px rgba(0,0,0,.25);--sh-hover:0 8px 24px rgba(0,0,0,.35);--sh-float:0 2px 8px rgba(0,0,0,.35);--sh-drop:0 8px 24px rgba(0,0,0,.45);
+  color-scheme:dark;
+}

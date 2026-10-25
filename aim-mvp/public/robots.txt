@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /api/
+Disallow: /book.html
+Disallow: /payment.html
+Disallow: /booking-confirmation.html
+Disallow: /booking-cancel.html
+Sitemap: https://your-domain.com/sitemap.xml
